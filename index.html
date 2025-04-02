@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basatwar Physio Care - Home Visit Physiotherapy</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="logo">
+            <h1>Basatwar Physio Care</h1>
+        </div>
+        <div class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#appointment">Book Appointment</a>
+            <a href="#treatments">Treatments</a>
+            <a href="#contact">Contact</a>
+        </div>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Welcome to Basatwar Physio Care</h1>
+                <p>Professional Home Visit Physiotherapy Services</p>
+                <a href="#appointment" class="cta-button">Book Appointment</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Dr. Mrunali Basatwar</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    
+                    <h3>Education</h3>
+                    
+                    <p>Bachelor of Physiotherapy (MUHS)</p>
+                    
+                    <h3>Clinical Experience</h3>
+                    
+                    <ul>
+                        <li>Advanced Physiotherapy Clinic, Bhandara (6 months)</li>
+                        <br>
+                        <li>Prayag Physiotherapy Clinic, Hingoli (6 months)</li>
+                    </ul>
+                </div>
+                <div class="about-image">
+                    <img class="doctor-image" src="doctor-placeholder.jpg" alt="Dr. Mrunali Basatwar">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <i class="fas fa-user-md"></i>
+                    <h3>Consultation</h3>
+                    <p>Professional physiotherapy consultation and treatment</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-home"></i>
+                    <h3>Home Visits</h3>
+                    <p>Convenient physiotherapy services at your doorstep</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-heartbeat"></i>
+                    <h3>Rehabilitation</h3>
+                    <p>Comprehensive rehabilitation programs</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Appointment Section -->
+    <section id="appointment" class="appointment">
+        <div class="container">
+            <h2>Book an Appointment</h2>
+            <div class="appointment-form">
+                <form action="https://formsubmit.co/pranav.basatwar@gmail.com" method="POST">
+                    <!-- FormSubmit Configuration -->
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="hidden" name="_subject" value="New Appointment Request - Basatwar Physio Care">
+                    <input type="hidden" name="_template" value="table">
+                    <input type="hidden" name="_next" value="https://pranav-basatwar.github.io/Basatwar-Physio-care-Website/thank-you.html">
+                    <input type="hidden" name="_autoresponse" value="Thank you for booking an appointment with Basatwar Physio Care. We will contact you shortly to confirm your appointment.">
+                    
+                    <!-- Form Fields -->
+                    <div class="form-group">
+                        <input type="text" name="name" required placeholder="Your Name">
+                    </div>
+                    <div class="form-group">
+                        <input type="email" name="email" required placeholder="Your Email">
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" name="phone" required placeholder="Your Phone">
+                    </div>
+                    <div class="form-group">
+                        <select name="service" required>
+                            <option value="">Select Service</option>
+                            <option value="consultation">Consultation</option>
+                            <option value="home-visit">Home Visit</option>
+                            <option value="rehabilitation">Rehabilitation</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <input type="date" name="date" required>
+                    </div>
+                    <div class="form-group">
+                        <select name="time" required>
+                            <option value="">Select Time</option>
+                            <option value="09:00">9:00 AM</option>
+                            <option value="10:00">10:00 AM</option>
+                            <option value="11:00">11:00 AM</option>
+                            <option value="12:00">12:00 PM</option>
+                            <option value="14:00">2:00 PM</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <textarea name="message" placeholder="Additional Message"></textarea>
+                    </div>
+                    <button type="submit" class="submit-button">Book Appointment</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Treatments Section -->
+    <section id="treatments" class="treatments">
+        <div class="container">
+            <h2>Home Visit Treatments</h2>
+            <div class="treatments-content">
+                <div class="treatments-text">
+                    <h3>We Provide Treatment for:</h3>
+                    <ul class="treatment-list">
+                        <li>
+                            <i class="fas fa-check-circle"></i>
+                            <span>Neck pain</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-check-circle"></i>
+                            <span>Back pain</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-check-circle"></i>
+                            <span>Knee pain, Orthopedic</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-check-circle"></i>
+                            <span>Paediatrics</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-check-circle"></i>
+                            <span>TKR, THR</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-check-circle"></i>
+                            <span>Stroke (Paralysis)</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-check-circle"></i>
+                            <span>Parkinson</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-check-circle"></i>
+                            <span>Cerebral Palsy (CP)</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-check-circle"></i>
+                            <span>Hemiparesis</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-check-circle"></i>
+                            <span>Pre and Post Operative Care</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="treatments-image">
+                    <img src="treatment-bg.jpg" alt="Physiotherapy Treatment" class="treatment-img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p>Komti Galli Gandhi Chowk, Hingoli</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <p>9579364803</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <p>mrunalibasatwar0307@gmail.com</p>
+                    </div>
+                </div>
+                <div class="contact-hours">
+                    <h3>Working Hours</h3>
+                    <p>Monday - Saturday: 9:00 AM - 7:00 PM</p>
+                    <br>
+                    <p>Sunday: Closed</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Basatwar Physio Care. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        // Mobile menu toggle
+        const hamburger = document.querySelector('.hamburger');
+        const navLinks = document.querySelector('.nav-links');
+        
+        hamburger.addEventListener('click', (e) => {
+            e.stopPropagation();
+            navLinks.classList.toggle('active');    
+            hamburger.classList.toggle('active');
+        });
+
+        // Close mobile menu when clicking a link
+        document.querySelectorAll('.nav-links a').forEach(link => {
+            link.addEventListener('click', () => {
+                navLinks.classList.remove('active');
+                hamburger.classList.remove('active');
+            });
+        });
+
+        // Close mobile menu when clicking outside
+        document.addEventListener('click', (e) => {
+            if (!e.target.closest('.nav-links') && !e.target.closest('.hamburger')) {
+                navLinks.classList.remove('active');
+                hamburger.classList.remove('active');
+            }
+        });
+
+        // Prevent menu from closing when clicking inside nav-links
+        navLinks.addEventListener('click', (e) => {
+            e.stopPropagation();
+        });
+    </script>
+</body>
+</html> 
