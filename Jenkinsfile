@@ -2,14 +2,14 @@ pipeline {
     agent any
 
     tools {
-        jdk 'Java17'
+        jdk 'Java21'
         maven 'Maven3'
     }
 
     stages {
         stage('Clone Repository') {
             steps {
-                git branch: 'main', url: 'https://github.com/username/java-demo.git'
+                git branch: 'main', url: 'https://github.com/Pranav-Basatwar/Basatwar-Physio-Care-Website.git'
             }
         }
 
